@@ -5,6 +5,9 @@
 
 
 ## 城戸 Research
+## 結論
+　
+ 
 ## 概説
 
 まず[Twitter API v2](https://developer.twitter.com/en/docs/twitter-api)にはグレードとして、**Essential**,**Elevated**,**Academic Research**があり、それぞれのグレードに応じてできることが異なる。
