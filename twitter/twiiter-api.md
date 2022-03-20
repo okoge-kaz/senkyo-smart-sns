@@ -54,7 +54,7 @@
 ## 懸念事項
 
 - 料金について
-　Twitter API v2をElevated(無料)にした場合enterpriseの利用権もついてくるというような[表](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)がありましたが、それまでenterpriseだけで有料だったものが本当に無料になるのかがわかりません。思いつく限りの検索ワードで調べてみたのですが目ぼしいものがなく困っています。
+　Twitter API v2をElevated(無料)にした場合enterpriseの利用権もついてくるというような[表](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)がありましたが、それまでenterpriseだけで有料だったものが本当に無料になるのかがわかりません。
   >新しいTwitter APIでは、開発者が開発を簡単に始められたり、開発規模を拡大したりできるよう、複数のアクセスレベルを設けています。これまで、Twitter　APIはスタンダード（無料）、プレミアム（有料のセルフサービス型）、エンタープライズ（有料のカスタムAPI）という3つに分かれ、それぞれ異なるプラットフォームやエクスペリエンスを提供していました。開発者もニーズの変化や拡大に伴って、それぞれのAPIの行き来は面倒な作業になりました。今後は、研究者からメーカーや企業に至るまで、すべての開発者が同じAPI上を使用して高いレベルでのアクセスと拡張を実現できるようになります。
   >[source](https://blog.twitter.com/developer/ja_jp/topics/tools/2020/NewTwitterAPI)
  
