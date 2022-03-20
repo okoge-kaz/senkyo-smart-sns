@@ -5,13 +5,12 @@
 
 
 ## 城戸 Research
-## 結論(未定)
-　**Twitter API v2.0(Elevated)**
-　**Twitter Analytics**
+## 結論
+　可能なら[**Twitter API v2**](https://developer.twitter.com/en/docs/twitter-api)が良いが
+[**Twitter Analytics**](https://analytics.twitter.com/about)でもほとんど似た情報を手に入れられる。
  
 ## 概説
-
-まず[Twitter API v2](https://developer.twitter.com/en/docs/twitter-api)にはグレードとして、**Essential**,**Elevated**,**Academic Research**があり、それぞれのグレードに応じてできることが異なる。
+ まず[Twitter API v2](https://developer.twitter.com/en/docs/twitter-api)にはグレードとして、**Essential**,**Elevated**,**Academic Research**があり、それぞれのグレードに応じてできることが異なる。
 
 以下にそれぞれのグレードにおける重要な[違い](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)を述べる。
 - **Essential**
@@ -36,6 +35,7 @@
 また、本プロジェクトにおいては、顧客に対しコンサルティング業務を行うという性質上、インプレッション、エンゲージメントなどの要素が不可欠であるが、これを可能にするには[**Enterprise (-Gnip2.0)**](https://developer.twitter.com/en/docs/twitter-api/enterprise) の [**Engagement API**](https://developer.twitter.com/en/docs/twitter-api/enterprise/engagement-api/overview)を利用する必要があり、Twitter API v2の**Elevated**以上のグレードを使えば良いことがわかる。
 
 > impression: ツイートを見たアカウントの数です。プロモーション対象のコンテンツに対するインプレッションのみを集計し、通常のツイートのインプレッションは含まれません。
+> 
 > engagement: ツイートに対するアカウントの反応を数値化したものです。リツイート、返信、いいね、投票、ハッシュタグのクリックなど、ツイートに対するあらゆるクリックを指し、課金対象外の獲得クリックも含まれます。
 [source](https://business.twitter.com/ja/help/overview/twitter-ads-glossary.html#:~:text=%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82-,%E3%82%A8%E3%83%B3%E3%82%B2%E3%83%BC%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E6%95%B0,%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%82%E5%90%AB%E3%81%BE%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)
 
@@ -49,7 +49,7 @@
          ![](https://i.imgur.com/aAj6W8C.png)
 このように、各ツイートのいいね数やprofile click数が一覧で表示される。(これは各ツイートごとにまとめられているが、一日あたりのツイート数、いいね数でまとめることもできる)
         　![](https://i.imgur.com/uy06Krc.jpg)
-**※どのような人がRTしたのかの情報は手に入れられない(数字でしか得られない)のでそれらが必要な場合は不適切かもしれません。**
+**※どのような人がRTしたのかの情報は手に入れられない(数字しか得られない)のでそれらが必要な場合は不適切かもしれません。**
 
 ## 懸念事項
 
