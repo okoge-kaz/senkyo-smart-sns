@@ -5,25 +5,54 @@
 
 
 ## 城戸 Research
+## 概説
 
-- API 取得まで 
-  - engagement,インプレッション等は法人プラン**enterprise API**の**Twitter Engagement API**を利用する(Premium APIs 等のプランでは不可能)。いいね数は enterprise API でなくても手に入れられる。[詳細](https://developer.twitter.com/en/docs/twitter-api/enterprise/engagement-api/overview) 
-    - 料金 ⇨ 　([ここ](https://developer.twitter.com/en/products/twitter-api/enterprise/application)に情報を入力しないと)詳細不明　[How much pricing in enterprise plan engagement API?](https://twittercommunity.com/t/how-much-pricing-in-enterprise-plan-engagement-api/112738)
-  料金の推測(それなりにすると思われる)
+まず[Twitter API v2](https://developer.twitter.com/en/docs/twitter-api)にはグレードとして、**Essential**,**Elevated**,**Academic Research**があり、それぞれのグレードに応じてできることが異なる。
 
-    [①](https://developer.twitter.com/en/pricing/search-30day) 
-    > API のグレードとして、Standard,Premium,enterprise があり、料金もグレードが上がるにつれて高くなると考えられるが、過去 30 日のツイートを得られる API の Premium バージョンは 500Tweets/1Request、500Requests/1month で＄ 149.00 となりリクエストの上限の増加に対して比例的に増加する。
+以下にそれぞれのグレードにおける重要な[違い](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)を述べる。
+- **Essential**
+    
 
-    [②](https://japan.cnet.com/article/35119321/#:~:text=%E7%84%A1%E6%96%99%E7%89%88%E3%81%A7%E3%81%AF%E6%89%B1%E3%81%88%E3%82%8B%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88,1%E6%9C%88%E3%81%82%E3%81%9F%E3%82%8A2899%E3%83%89%E3%83%AB%E3%80%82)
+| 料金 | Standard v1.1 | Premium v1.1 | Enterprise | Access to full-archive Tweet counts|
+| -------- | -------- | -------- | --- |  --|
+| 無料     | アクセス不可     | アクセス不可     | アクセス不可 | 不可能 |
 
-    > Account Activity APIでは、ツイートやリプライ、ダイレクトメッセージなどの通知などがリアルタイムで受信できる。タイムラインのデータを自動で取得する機能は盛り込まれていない。
+- **Elevated**
 
-  Account Activity API は、無料で提供するサンドボックス、有料提供となるプレミアム、エンタープライズの 3 段階が設定。無料版では扱えるアカウント数が 15 個に限られるほか、プレミアム版でも 25 個～ 250 個の制限が設けられており、251 個以上のアカウントを扱う場合は、エンタープライズ契約が必要となる。プレミアム版の価格は扱えるアカウント数によって異なり、25 個までが 1 月あたり 339 ドル、250 個までが 1 月あたり 2899 ドル。
+| 料金 | Standard v1.1 | Premium v1.1 | Enterprise | Access to full-archive Tweet counts|
+| -------- | -------- | -------- | --- |  --|
+| 無料     | アクセス可能     | アクセス可能     | アクセス可能 | 不可能 |
+- **Academic**
 
-- API を利用しない(できない)場合は[**Twitter Analytics**](https://analytics.twitter.com/about)を利用すると良いと思われる。Export data(csv)というボタンがあるのですぐに csv ファイルに落とすことが可能。 - 以下私のツイッターアカウントの Analytics - 月ごとの情報
-  ![](https://i.imgur.com/9EVAOQL.jpg) - 各ツイートに対するエンゲージ
-  ![](https://i.imgur.com/iBbmnid.jpg) - 出力した csv ファイル(By Tweet)
-  ![](https://i.imgur.com/aAj6W8C.png)
+| 料金 | Standard v1.1 | Premium v1.1 | Enterprise | Access to full-archive Tweet counts|
+| -------- | -------- | -------- | --- |  --|
+| 無料     | アクセス可能     | アクセス可能     | アクセス可能 | 可能 |
+
+
+また、本プロジェクトにおいては、顧客に対しコンサルティング業務を行うという性質上、インプレッション、エンゲージメントなどの要素が不可欠であるが、これを可能にするには[**Enterprise (-Gnip2.0)**](https://developer.twitter.com/en/docs/twitter-api/enterprise) の [**Engagement API**](https://developer.twitter.com/en/docs/twitter-api/enterprise/engagement-api/overview)を利用する必要があり、Twitter API v2の**Elevated**以上のグレードを使えば良いことがわかる。
+
+> impression: ツイートを見たアカウントの数です。プロモーション対象のコンテンツに対するインプレッションのみを集計し、通常のツイートのインプレッションは含まれません。
+> engagement: ツイートに対するアカウントの反応を数値化したものです。リツイート、返信、いいね、投票、ハッシュタグのクリックなど、ツイートに対するあらゆるクリックを指し、課金対象外の獲得クリックも含まれます。
+[source](https://business.twitter.com/ja/help/overview/twitter-ads-glossary.html#:~:text=%E4%BB%98%E3%81%91%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82-,%E3%82%A8%E3%83%B3%E3%82%B2%E3%83%BC%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E6%95%B0,%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%82%E5%90%AB%E3%81%BE%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82)
+
+ただし、本プロジェクトにおいては**Academic**グレードにする必要があるかは疑問。理由として上表の[Access to full-archive Tweet counts](https://developer.twitter.com/en/docs/twitter-api/tweets/counts/introduction)は一例として
+>フルアーカイブのツイート数エンドポイントを使用して、2017年8月から9月までの1日あたりのハッシュタグ#SOSHurricaneHarveyのツイート数を確認できます。
+
+このように使われるものであり、今回のプロジェクトには必要でないと思われるからである。
+
+(APIを利用することでどこまで自動化できるのかがよくわかっていないので判断出来かねるが）もしAPIを利用してもエンゲージメント等を纏めるのに手動でしないといけないことが多少でもあるならば、本プロジェクトにおいて必要な情報は、どのツイートにどの程度のインプレッション、エンゲージメント、いいね、RT、プロフィールに訪れた人がいたかどうかであると思っているので、[**Twitter Analytics**](https://analytics.twitter.com/about)を利用するのも手だと思われる。Export data(csv)というボタンがあるのですぐにcsvファイルに落とすことが可能。
+- 以下私のツイッターアカウントのAnalytics
+         ![](https://i.imgur.com/aAj6W8C.png)
+このように、各ツイートのいいね数やprofile click数が一覧で表示される。(これは各ツイートごとにまとめられているが、一日あたりのツイート数、いいね数でまとめることもできる)
+        　![](https://i.imgur.com/uy06Krc.jpg)
+**※どのような人がRTしたのかの情報は手に入れられない(数字でしか得られない)のでそれらが必要な場合は不適切かもしれません。**
+
+## 懸念事項
+
+- 料金について
+　Twitter API v2をElevated(無料)にした場合enterpriseの利用権もついてくるというような[表](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)がありましたが、それまでenterpriseだけで有料だったものが本当に無料になるのかがわかりません。思いつく限りの検索ワードで調べてみたのですが目ぼしいものがなく困っています。
+  >新しいTwitter APIでは、開発者が開発を簡単に始められたり、開発規模を拡大したりできるよう、複数のアクセスレベルを設けています。これまで、Twitter　APIはスタンダード（無料）、プレミアム（有料のセルフサービス型）、エンタープライズ（有料のカスタムAPI）という3つに分かれ、それぞれ異なるプラットフォームやエクスペリエンスを提供していました。開発者もニーズの変化や拡大に伴って、それぞれのAPIの行き来は面倒な作業になりました。今後は、研究者からメーカーや企業に至るまで、すべての開発者が同じAPI上を使用して高いレベルでのアクセスと拡張を実現できるようになります。
+  >[source](https://blog.twitter.com/developer/ja_jp/topics/tools/2020/NewTwitterAPI)
 
 
 ## 藤井 Research
