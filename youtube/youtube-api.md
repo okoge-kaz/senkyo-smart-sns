@@ -1,6 +1,6 @@
 # Youtube APIに関する分析
 
-##　結論
+## 結論
 以下の順に好ましいと思われる。
   1. [YouTubeReportingAPI](https://developers.google.com/youtube/reporting/v1/reports?hl=ja)
   2. [YouTubeAnalyticsAPI](https://developers.google.com/youtube/analytics/data_model?hl=ja)
