@@ -1,15 +1,5 @@
 # Smart-SNS
 
-## FaceBook
-
-## Instagram
-
-## Twitter
-
-- [Tools and Libraries](https://developer.twitter.com/en/docs/twitter-api/tools-and-libraries/v2)
-
-## Youtube
-
 ## pip package update
 
 Pip can be used to upgrade all packages on either Windows or Linux (and Mac OS X).):
