@@ -14,17 +14,11 @@
 
 ## 結論(城戸)
 
-[Graph API](https://developers.facebook.com/docs/graph-api?locale=ja_JP)を用いるのが望ましい。
+[**Graph API**](https://developers.facebook.com/docs/graph-api?locale=ja_JP)の[**Page Insights**](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)用いるのが望ましい。
 
 ## 概説(城戸)
 
-### グラフAPIでできること(必要なさそうなものは線)
-  #### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)
- - URLにつけられたコメント数の取得
- - URLにつけられたリアクション(主にいいね)の数の取得
- - URLがシェアされた回数
- - ~~あなたのサイトで[Comments Plugin](https://developers.facebook.com/docs/plugins/comments/)を使用して集めたプラグインのコメント数の取得~~　
-
+### グラフAPIでできること(今回必要そうなもの)
 #### [Page Insights](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights) 
  - ページでアクションを実行した人の数
  - 投稿でリアクションやコメント、シェアなどのアクションが実行された回数
