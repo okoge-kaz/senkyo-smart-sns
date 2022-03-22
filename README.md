@@ -7,7 +7,9 @@
 - [Instagram](instagram/instagram-api.md)
 - [Youtube](youtube/youtube-api.md)
 
-
+- [データ可視化ツール](./tools/visualization_tool.md)
+- [データベース](./tools/database.md)
+- [サーバー](./tools/server.md)
 ## pip package update
 
 Pip can be used to upgrade all packages on either Windows or Linux (and Mac OS X).):
