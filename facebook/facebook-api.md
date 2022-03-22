@@ -18,16 +18,21 @@
 
 ## 概説(城戸)
 
-### [グラフAPIでできること](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)(必要なさそうなものは線)
+### グラフAPIでできること(必要なさそうなものは線)
+  #### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)
  - URLにつけられたコメント数の取得
  - URLにつけられたリアクション(主にいいね)の数の取得
  - URLがシェアされた回数
  - ~~あなたのサイトで[Comments Plugin](https://developers.facebook.com/docs/plugins/comments/)を使用して集めたプラグインのコメント数の取得~~　
 
-### [Page Insights](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)
+#### [Page Insights](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights) 
+ - ページでアクションを実行した人の数
+ - 投稿でリアクションやコメント、シェアなどのアクションが実行された回数
+ - あなたのコンテンツのクリック数
+ - あなたのコンテンツをクリックした人数
+ [等](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day%2C%20week%2C%20days_28-,Page%20Engagement,-The%20%22like%22%20reaction)
 
-
-API以外の方法
+### API以外の方法
 
  - [**Creator Studio**](https://business.facebook.com/creatorstudio/home)を使う。
 
