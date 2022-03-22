@@ -3,11 +3,11 @@
 - Document
   - https://developers.facebook.com/docs/graph-api?locale=ja_JP
   - https://developers.facebook.com/docs/marketing-apis/overview
-## 結論(藤井さん)
+## 結論(藤井)
 
 [Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。
 
-## 概説(藤井さん)
+## 概説(藤井)
 
 インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。   
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
