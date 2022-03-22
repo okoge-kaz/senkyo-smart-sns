@@ -16,6 +16,25 @@
 
 [**Graph API**](https://developers.facebook.com/docs/graph-api?locale=ja_JP)の[**Page Insights**](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)用いるのが望ましい。
 
+## はじめに
+以下概説においてPageという用語が出てくるが、(私が)知らなかったので解説を載せておきます
+ #### プロフィール、ページの違い
+  > プロフィール
+> Facebookプロフィールは、趣味・関心、写真、動画、居住地、出身地など、自分に関する情報をシェアできる場所です。自分のプロフィールを見るには、Facebookの画面上部にある自分の名前またはプロフィール写真を クリックまたはタップします。
+> 
+> ページ
+> ページを作成したり、管理したりするには、プロフィールが必要です。Facebookページは、アーティスト、著名人、ビジネス、ブランド、組織、非営利団体などがファンや顧客とつながることができる場所です。Facebookで  ページに「いいね！」したり、ページをフォローしたりすると、フィードにそのページの最新情報が表示されるようになります。
+
+- ページの一例
+　　![](https://i.imgur.com/FIT0QRu.png)
+
+> Q : facebookページを作成するのと個人用facebookアカウントの公開コンテンツのフォローを許可するのはどっちがいいのでしょうか?
+A : Facebookでビジネス、ブランド、または製品の存在を示すことを目的としている場合は、Facebookページを作成してください。Facebookページは多くの利用者と交流するのに適した機能で、エンゲージメントを管理および追跡するのに役立つツールもそろっています。
+個人のタイムラインでより多くの人に最新情報を見てもらうことを目的としている場合は、フォローの許可をおすすめします。フォローを許可すると、Facebookで友達ではない人を含め、すべてのFacebookの利用者があなたをフォローし、自分のニュースフィードであなたの公開コンテンツを確認できるようになります。
+
+政治家がfacebookページを利用するべきか、しないべきかはわからないが、上からわかるように分析をするための情報を手に入れられるのはページだけだと思われる。(私はfacebookを使わないため、その違いについてよくわかっていないので普段利用する人に*ページがどういうものか、どちらが適切なのか*を聞く必要があると思われる)
+
+[引用](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
 ## 概説(城戸)
 
 ### グラフAPIでできること(今回必要そうなもの)
@@ -31,12 +50,12 @@
   - [Page User Demographic](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day-,Page%20User%20Demographics,-Metric%20Name)
     - あなたのページに「いいね！」した人の市区町村別のFacebook位置情報
 
-#### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)
+#### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)　(不必要な可能性が高い)
   -  URLに付けられたコメントの数  
   -  URLに対するリアクションの数
   -  URLがシェアされた回数
   > URLNodeのAppLinksデータやエンゲージメント数などのフィールドを取得します。注: エンゲージメント数は意図的に不正確な値になっていますが、URLによるユーザーエンゲージメントを正確に反映していることは信頼できます。
-  [引用](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)
+  [引用](https://developers.facebook.com/docs/graph-api/reference/v13.0/url))
 
 ### API以外の方法
 
@@ -58,7 +77,4 @@ Ad Account Insightsが対応しているのがあくまでも広告だけで、�
 
 [参考](https://liskul.com/facebook-ads-account-93916#:~:text=%E3%81%99%E3%82%8B%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%A8%E3%81%AF-,%E5%88%A5%E3%81%AB,-%E3%80%81%E5%BA%83%E5%91%8A%E3%82%92%E9%85%8D%E4%BF%A1)(公式ドキュメントにも同様の内容があったがどこに載っていたか忘れたのでとりあえず仮に置いておきます。見つけたらリンク先を修正します。)
 
-- 以下私のfacebookアカウントで広告をしようとした場合に表示されたもの(一年程度前にアカウント作成済み)
-      ![](https://i.imgur.com/rMf6ldK.png)
-      ![](https://i.imgur.com/REvahc2.png)
-  上にわかるように通常のアカウントとは全く別に作る必要がある。
+
