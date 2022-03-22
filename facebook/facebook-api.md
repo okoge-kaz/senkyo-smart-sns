@@ -5,11 +5,11 @@
   - https://developers.facebook.com/docs/marketing-apis/overview
 ## 結論(藤井)
 
-[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。
+~~[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。~~
 
 ## 概説(藤井)
 
-インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。   
+~~インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。~~
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
 
 ## 結論(城戸)
@@ -35,6 +35,13 @@
 ### API以外の方法
 
  - [**Creator Studio**](https://business.facebook.com/creatorstudio/home)を使う。
+
+#### Creator Studioでできること
+ > 概要: リーチ、新規フォロワー、あなたのページのフォローをやめた人に関する指標を含め、すべてのページのパフォーマンスの概要を確認できます。下にスクロールすると、各ページのインサイトの概要が表示されます。インサイトには、動画の3秒再生数、動画の1分再生数、インプレッション、リーチした人数、エンゲージメントなどがあります。
+ >
+ > オーディエンス: 閲覧者とすべてのフォロワーについて、利用者層データの内訳を含めて詳しく見ることができます。オーディエンスインサイトについて、詳しくはこちらをご覧ください。
+
+[引用](https://www.facebook.com/business/help/214952509306377?id=203539221057259)
 
 ## 懸念事項
 
