@@ -12,11 +12,11 @@
 インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。   
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
 
-##結論(城戸)
+## 結論(城戸)
 
 [Graph API](https://developers.facebook.com/docs/graph-api?locale=ja_JP)を用いるのが望ましい。
 
-##　概説(城戸)
+## 概説(城戸)
 
 ### [グラフAPIでできること](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)(必要なさそうなものは線)
  - URLにつけられたコメント数の取得
