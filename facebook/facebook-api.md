@@ -12,6 +12,12 @@
 インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。   
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
 
+### [グラフAPIでできること](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)(必要なさそうなものは線)
+ - URLにつけられたコメント数の取得
+ - URLにつけられたリアクション(主にいいね)の数の取得
+ - URLがシェアされた回数
+ - ~~あなたのサイトで[Comments Plugin](https://developers.facebook.com/docs/plugins/comments/)を使用して集めたプラグインのコメント数の取得~~　
+
 API以外の方法
 
  - [**Creator Studio**](https://business.facebook.com/creatorstudio/home)を使う。
