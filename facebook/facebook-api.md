@@ -5,7 +5,8 @@
   - https://developers.facebook.com/docs/marketing-apis/overview
 ## 結論
 
-[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。
+~~[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。~~\
+未定
 
 ## 概説
 
@@ -25,6 +26,7 @@ API以外の方法
 ## 懸念事項
 
 Ad Account Insightsが対応しているのがあくまでも広告だけで、個人の投稿に対するインサイトを取得することができない可能性がある。
+
 ↑おそらく不可能だと思われる。広告アカウントは通常の個人のアカウントとは**別に**作らなければならないのでそれ専用の統計である可能性が高い。
   ![](https://i.imgur.com/oCb66uF.png)
 
