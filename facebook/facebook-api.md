@@ -70,7 +70,7 @@ A : Facebookでビジネス、ブランド、または製品の存在を示す�
   - [Page User Demographic](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day-,Page%20User%20Demographics,-Metric%20Name)
     - あなたのページに「いいね！」した人の市区町村別のFacebook位置情報
 
-#### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)　(不必要な可能性が高い)
+#### [URL](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)　(今回のプロジェクトにおいてあまり関係ない可能性が高い)
   -  URLに付けられたコメントの数  
   -  URLに対するリアクションの数
   -  URLがシェアされた回数
