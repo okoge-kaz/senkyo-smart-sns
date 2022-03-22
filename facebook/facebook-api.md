@@ -38,7 +38,20 @@ A : Facebookでビジネス、ブランド、または製品の存在を示す�
 ## 概説(城戸)
 
 ### グラフAPIでできること(今回必要そうなもの)
-#### [Page Insights](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights) 
+#### [Page Insights](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)
+ - [Page Post](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day%2C%20week%2C%20days_28-,Page%20Posts,-Metric%20Name)
+    - あなたのページの投稿が利用者の画面に表示された回数
+    - あなたのページの投稿が画面に表示された人の数
+ - [Page Post Engagement](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day%2C%20week%2C%20days_28-,Page%20Post%20Engagement,-Metric%20Name)
+    - あなたの投稿をクリックした人数
+    - ページに「いいね！」して、投稿で何らかのアクションを実行した人
+ - [Page Post Impression](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=to%20an%20event-,Page%20Post%20Impressions,-Metric%20Name)
+    - あなたのページの投稿が利用者の画面に表示された回数。投稿には、ステータス、写真、リンク、動画なども含まれます。
+    - あなたのページの投稿が画面に表示された人の数。
+    - あなたのページでの投稿を見て、ページに「いいね！」した人数
+ - [Page Post Reactions](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=lifetime-,Page%20Post%20Reactions,-The%20%22like%22%20reaction)
+    - 投稿への「いいね！」の合計数
+    - 投稿への「超いいね！」の合計数　
  - [Page Engagement](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights#:~:text=day%2C%20week%2C%20days_28-,Page%20Engagement,-The%20%22like%22%20reaction)
     - ページでアクションを実行した人の数
     - 投稿でリアクションやコメント、シェアなどのアクションが実行された回数
