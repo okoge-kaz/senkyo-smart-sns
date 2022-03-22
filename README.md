@@ -1,5 +1,3 @@
-# smart-sns 各種SNS API調査
-
 ## 調査報告
 
 - [FaceBook](facebook/facebook-api.md)
