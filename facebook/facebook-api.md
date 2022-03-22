@@ -37,9 +37,6 @@ A : Facebookでビジネス、ブランド、または製品の存在を示す�
 
 ページを利用していない政治家の例 [安倍晋三](https://www.facebook.com/abeshinzo)
 
-また、(私は)facebookを使わないため、pageと通常のアカウントが投稿したときにどのように表示のされ方に違いがあるのかについて調べるだけではよくわからなかったのでfacebookを普段利用している人に聞くことも必要かもしれない。
-
-
 ## 結論(城戸)
 
 [**Graph API**](https://developers.facebook.com/docs/graph-api?locale=ja_JP)の[**Page Insights**](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)用いるのが望ましい。
