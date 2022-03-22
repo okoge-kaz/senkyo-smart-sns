@@ -12,11 +12,8 @@
 ~~インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。~~
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
 
-## 結論(城戸)
 
-[**Graph API**](https://developers.facebook.com/docs/graph-api?locale=ja_JP)の[**Page Insights**](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)用いるのが望ましい。
-
-## はじめに
+## はじめに(城戸)
 以下概説においてPageという用語が出てくるが、(私が)知らなかったので解説を載せておきます
  #### プロフィール、ページの違い
   > プロフィール
@@ -32,9 +29,18 @@
 A : Facebookでビジネス、ブランド、または製品の存在を示すことを目的としている場合は、Facebookページを作成してください。Facebookページは多くの利用者と交流するのに適した機能で、エンゲージメントを管理および追跡するのに役立つツールもそろっています。
 個人のタイムラインでより多くの人に最新情報を見てもらうことを目的としている場合は、フォローの許可をおすすめします。フォローを許可すると、Facebookで友達ではない人を含め、すべてのFacebookの利用者があなたをフォローし、自分のニュースフィードであなたの公開コンテンツを確認できるようになります。
 
-政治家がfacebookページを利用するべきか、しないべきかはわからないが、上からわかるように分析をするための情報を手に入れられるのはページだけだと思われる。(私はfacebookを使わないため、その違いについてよくわかっていないので普段利用する人に*ページがどういうものか、どちらが適切なのか*を聞く必要があると思われる)
-
 [引用](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
+
+政治家がfacebookページを利用するべきか、しないべきかはわからないが、上からわかるように分析をするための情報を手に入れられるのはページだけだと思われる。
+
+また、(私は)facebookを使わないため、pageや投稿がどのようにユーザーの目に届くのか、また通常のアカウントとpageの違いについて、調べるだけでは正直よくわからなかったので、普段利用する人にそれらについて聞くことも必要かもしれない。
+
+
+## 結論(城戸)
+
+[**Graph API**](https://developers.facebook.com/docs/graph-api?locale=ja_JP)の[**Page Insights**](https://developers.facebook.com/docs/graph-api/reference/v13.0/insights)用いるのが望ましい。
+
+
 ## 概説(城戸)
 
 ### グラフAPIでできること(今回必要そうなもの)
