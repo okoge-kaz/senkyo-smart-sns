@@ -5,7 +5,7 @@
   - https://developers.facebook.com/docs/marketing-apis/overview
 ## 結論(藤井さん)
 
-~~[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。~~\
+[Ad Account Insights](https://developers.facebook.com/docs/graph-api/reference/adaccount/insights?locale=ja_JP)を用いるのが望ましい。
 
 ## 概説(藤井さん)
 
