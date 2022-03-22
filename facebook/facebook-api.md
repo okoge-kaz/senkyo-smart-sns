@@ -12,6 +12,10 @@
 インサイト等の情報を取得する必要性があることを踏まえると、Insightsを取得できるAPIが上記のものしかない。   
 [詳細](https://developers.facebook.com/docs/marketing-api/insights?locale=ja_JP)
 
+API以外の方法
+
+ - [**Creator Studio**](https://business.facebook.com/creatorstudio/home)を使う。
+
 ## 懸念事項
 
 Ad Account Insightsが対応しているのがあくまでも広告だけで、個人の投稿に対するインサイトを取得することができない可能性がある。
