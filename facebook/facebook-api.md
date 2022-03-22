@@ -35,6 +35,8 @@
   -  URLに付けられたコメントの数  
   -  URLに対するリアクションの数
   -  URLがシェアされた回数
+  > URLNodeのAppLinksデータやエンゲージメント数などのフィールドを取得します。注: エンゲージメント数は意図的に不正確な値になっていますが、URLによるユーザーエンゲージメントを正確に反映していることは信頼できます。
+  [引用](https://developers.facebook.com/docs/graph-api/reference/v13.0/url)
 
 ### API以外の方法
 
