@@ -55,6 +55,7 @@ Instagram Graph APIの記事: https://dev.classmethod.jp/articles/instagram-grap
 
 - Youtube
 
+- Architecture
 ![](./images/aws-architecture.png)
 ## pip package update
 
